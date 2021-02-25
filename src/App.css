@@ -1,0 +1,64 @@
+* {
+  overflow: hidden;
+}
+.App {
+  text-align: center;
+  background: url("./assests/pexels-raka-miftah-4253623.jpg") no-repeat fixed;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.header {
+  font-size: 3rem;
+  text-align: top;
+  height: 250px;
+  line-height: 20vh;
+  color: #fcedd8;
+  font-family: "Niconne", cursive;
+  text-shadow: 5px 5px 0px #eb452b;
+}
+
+.App-content {
+  min-height: 80vh;
+}
+
+.App .game {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(80px);
+}
+
+.App .game img {
+  margin: 0 50px 0 100px;
+}
+
+.App-content .wins {
+  color: #4bb543;
+  font-size: 30px;
+}
+
+.App-content .remaninig-cards {
+  color: #fcedd8;
+  font-size: 26px;
+}
+
+button:active {
+  opacity: 0.7;
+  outline: none;
+}
+button {
+  background-color: #eb452b;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin: 20px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #fcedd8;
+  color: #e50914;
+}
